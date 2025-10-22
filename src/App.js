@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
 function App() {
+  const appStyle = {
+    backgroundColor: '#000', // black background
+    color: '#fff', // white text
+    height: '100vh', // full viewport height
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    fontFamily: 'Arial, sans-serif',
+  };
+
+  const companyStyle = {
+    fontSize: '2.5rem',
+    fontWeight: 'bold',
+    marginBottom: '20px',
+  };
+
+  const comingSoonStyle = {
+    fontSize: '1.5rem',
+    fontStyle: 'italic',
+    letterSpacing: '2px',
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={appStyle}>
+      <div style={companyStyle}>IgenProTechnologies</div>
+      <div style={comingSoonStyle}>Coming Soon...</div>
     </div>
   );
 }
