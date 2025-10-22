@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div style={appStyle}>
-      <div style={companyStyle}>IgenProTechnologies</div>
+      <div style={companyStyle}>IGen Pro Technologies</div>
       <div style={comingSoonStyle}>Coming Soon...</div>
     </div>
   );
