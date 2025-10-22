@@ -1,0 +1,8 @@
+{
+  "name": "igenprotechnologies",
+  "main": "index.js",
+  "compatibility_date": "2025-10-22",
+  "assets": {
+    "directory": "./build"
+  }
+}
